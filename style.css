@@ -1,0 +1,222 @@
+:root {
+    --primary: #9166b9;
+    --secondary: #d6b7e3;
+    --light: #bba5c5;
+    --white: #FFFFFF;
+    --gray: #F5F5F5;
+}
+.header-option{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: var(--primary);
+    transition: color 0.3s ease;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    /*font-family: 'Montserrat', sans-serif;*/
+    margin: 0;
+    padding: 0;
+    color: #333;
+    line-height: 1.5;
+}
+
+.header {
+    background-color: var(--white);
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
+}
+#ul-header-option{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}h2{
+    align-self: center;
+}
+.welcome{
+    padding: 120px 0 100px;
+}
+.container-welcome h2{
+    align-self: center;
+}
+.container-welcome {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.container-welcome img {
+
+    max-width: 40%;
+    height: auto;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+.container-logo {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#logo-img-amora{
+    width: 30%;
+    aspect-ratio: 1 / 0.8;
+    max-width: 100px;
+}
+
+.logo {
+    font-size: 2rem;
+    font-weight: 700;
+    color: var(--primary);
+}
+
+.logo span {
+    color: var(--secondary);
+}
+
+.hero {
+    background: linear-gradient(135deg, var(--primary) 0%, var(--secondary) 100%);
+    color: var(--white);
+    padding: 150px 0 100px;
+    text-align: center;
+}
+
+.services { 
+    padding: 80px 0;
+    background-color: var(--gray);
+}
+.service-card {
+    display: flex;
+    flex-direction: row-reverse
+}
+.service-card-i{
+    display: flex;
+    flex-direction: row;
+}
+.child-service-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 50%;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+.image-service-card {
+    width: 50%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+.team {
+    padding: 80px 0;
+}
+iframe{
+    width: 100%;
+    height: 450px;
+    border: 0;
+    border-radius: 10px;
+}
+.contact {
+    background: linear-gradient(135deg, var(--primary) 0%, var(--secondary) 100%);
+    color: var(--white);
+    padding: 80px 0;
+}
+
+.whatsapp-float {
+    position: fixed;
+    width: 60px;
+    height: 60px;
+    bottom: 40px;
+    right: 40px;
+    background-color: #25d366;
+    color: var(--white);
+    border-radius: 50px;
+    text-align: center;
+    font-size: 30px;
+    box-shadow: 2px 2px 3px #999;
+    z-index: 100;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.3s ease;
+}
+
+.whatsapp-float:hover {
+    background-color: #128C7E;
+    transform: scale(1.1);
+}
+.social-buttons {
+  display: flex;
+  gap: 10px;
+}
+
+.btn {
+  text-decoration: none;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 16px;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.facebook {
+  background-color: #3b5998;
+}
+
+.facebook:hover {
+  background-color: #2d4373;
+}
+
+.twitter {
+  background-color: #1da1f2;
+}
+
+.twitter:hover {
+  background-color: #0d8bf0;
+}
+
+.instagram {
+  background-color: #e4405f;
+}
+
+.instagram:hover {
+  background-color: #c13584;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 608px) {
+  small {
+    display: none;
+  }
+}
+/* Outros estilos necessários */
